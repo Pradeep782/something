@@ -1,0 +1,63 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+body {
+  background-color: black;
+}
+
+.container {
+  position: absolute;
+  top: 180px;
+  left: 500px;
+}
+.container h1 {
+  color: white;
+  font-size: 30px;
+  border-bottom: 5px solid purple;
+  margin-bottom: 30px;
+  padding: 13px 0px;
+  font-family: "Heebo", sans-serif;
+}
+.box {
+  width: 100%;
+  color: white;
+  margin: 0px 0px;
+  border-bottom: 5px solid purple;
+}
+.box input {
+  background: none;
+  width: 80%;
+  margin: 8px 0px;
+  padding: 10px 0px;
+  font-size: 20px;
+  outline: none;
+  color: white;
+}
+.btn {
+  cursor: pointer;
+  outline: none;
+  width: 25%;
+  margin: 12px 0;
+  padding: 6px;
+  border-radius: 10px;
+  border: 2px solid purple;
+  font-size: 20px;
+  background: none;
+  color: white;
+  font-weight: bold;
+  font-family: "Dosis", sans-serif;
+}
+.btn:hover {
+  color: purple;
+  background-color: royalblue;
+}
+.box i {
+  width: 25px;
+  text-align: center;
+  color: white;
+}
+#signup-f {
+  position: relative;
+  top: 485px;
+}
